@@ -1,0 +1,468 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "asistente codnaow",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AsistenteGeneralIntent",
+          "slots": [],
+          "samples": [
+            "dime un tema aleatorio",
+            "dame un tema",
+            "di un tema"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AsistenteIntent",
+          "slots": [
+            {
+              "name": "tema",
+              "type": "Tema",
+              "samples": [
+                "sobre {tema}",
+                "{tema}",
+                "Quiero saber de {tema}",
+                "dime sobre {tema}"
+              ]
+            }
+          ],
+          "samples": [
+            "dime sobre la {tema}",
+            "dime sobre el {tema}",
+            "sobre el {tema}",
+            "sobre la {tema}",
+            "sobre {tema}",
+            "quiero saber sobre {tema}",
+            "dime sobre {tema}"
+          ]
+        },
+        {
+          "name": "MenuIntent",
+          "slots": [],
+          "samples": [
+            "muestra temas",
+            "dame los temas",
+            "da lista de temas",
+            "lista de temas",
+            "muestra lista de temas",
+            "da lista",
+            "da menu",
+            "regresa",
+            "regresa menu",
+            "devuelve menu",
+            "menu",
+            "regresa a menu",
+            "dime el menu",
+            "muestra menu",
+            "dame menu"
+          ]
+        },
+        {
+          "name": "ReadTopicsIntent",
+          "slots": [],
+          "samples": [
+            "Dime los temas",
+            "Lee los temas",
+            "Lee temas"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "1",
+              "name": {
+                "value": "java"
+              }
+            },
+            {
+              "id": "55",
+              "name": {
+                "value": "NullPointerException"
+              }
+            },
+            {
+              "id": "54",
+              "name": {
+                "value": "IndexOutOfBoundsException"
+              }
+            },
+            {
+              "id": "53",
+              "name": {
+                "value": "IllegalArgumentException"
+              }
+            },
+            {
+              "id": "52",
+              "name": {
+                "value": "excepciones"
+              }
+            },
+            {
+              "id": "51",
+              "name": {
+                "value": "recursión"
+              }
+            },
+            {
+              "id": "50",
+              "name": {
+                "value": "polimorfismo"
+              }
+            },
+            {
+              "id": "49",
+              "name": {
+                "value": "interfaces"
+              }
+            },
+            {
+              "id": "48",
+              "name": {
+                "value": "clases abstractas"
+              }
+            },
+            {
+              "id": "47",
+              "name": {
+                "value": "extends"
+              }
+            },
+            {
+              "id": "46",
+              "name": {
+                "value": "herencia"
+              }
+            },
+            {
+              "id": "45",
+              "name": {
+                "value": "arreglos"
+              }
+            },
+            {
+              "id": "44",
+              "name": {
+                "value": "scanner"
+              }
+            },
+            {
+              "id": "43",
+              "name": {
+                "value": "string"
+              }
+            },
+            {
+              "id": "42",
+              "name": {
+                "value": "operador condicional"
+              }
+            },
+            {
+              "id": "41",
+              "name": {
+                "value": "switch"
+              }
+            },
+            {
+              "id": "40",
+              "name": {
+                "value": "if"
+              }
+            },
+            {
+              "id": "39",
+              "name": {
+                "value": "for"
+              }
+            },
+            {
+              "id": "38",
+              "name": {
+                "value": "do while"
+              }
+            },
+            {
+              "id": "37",
+              "name": {
+                "value": "while"
+              }
+            },
+            {
+              "id": "36",
+              "name": {
+                "value": "iteración"
+              }
+            },
+            {
+              "id": "35",
+              "name": {
+                "value": "controladores secuenciales"
+              }
+            },
+            {
+              "id": "34",
+              "name": {
+                "value": "método main"
+              }
+            },
+            {
+              "id": "33",
+              "name": {
+                "value": "métodos auxiliares"
+              }
+            },
+            {
+              "id": "32",
+              "name": {
+                "value": "métodos mutantes"
+              }
+            },
+            {
+              "id": "31",
+              "name": {
+                "value": "métodos de acceso"
+              }
+            },
+            {
+              "id": "30",
+              "name": {
+                "value": "métodos constructores"
+              }
+            },
+            {
+              "id": "29",
+              "name": {
+                "value": "métodos"
+              }
+            },
+            {
+              "id": "28",
+              "name": {
+                "value": "atributos constantes"
+              }
+            },
+            {
+              "id": "27",
+              "name": {
+                "value": "atributos estáticos"
+              }
+            },
+            {
+              "id": "26",
+              "name": {
+                "value": "atributos"
+              }
+            },
+            {
+              "id": "25",
+              "name": {
+                "value": "objetos"
+              }
+            },
+            {
+              "id": "24",
+              "name": {
+                "value": "modificadores de acceso"
+              }
+            },
+            {
+              "id": "23",
+              "name": {
+                "value": "clases"
+              }
+            },
+            {
+              "id": "22",
+              "name": {
+                "value": "operadores de asignación"
+              }
+            },
+            {
+              "id": "21",
+              "name": {
+                "value": "operadores lógicos"
+              }
+            },
+            {
+              "id": "20",
+              "name": {
+                "value": "operadores relacionales"
+              }
+            },
+            {
+              "id": "19",
+              "name": {
+                "value": "operador de concatenación"
+              }
+            },
+            {
+              "id": "18",
+              "name": {
+                "value": "operadores Aritméticos"
+              }
+            },
+            {
+              "id": "17",
+              "name": {
+                "value": "operadores"
+              }
+            },
+            {
+              "id": "16",
+              "name": {
+                "value": "variable"
+              }
+            },
+            {
+              "id": "15",
+              "name": {
+                "value": "double"
+              }
+            },
+            {
+              "id": "14",
+              "name": {
+                "value": "char"
+              }
+            },
+            {
+              "id": "13",
+              "name": {
+                "value": "long"
+              }
+            },
+            {
+              "id": "12",
+              "name": {
+                "value": "int"
+              }
+            },
+            {
+              "id": "11",
+              "name": {
+                "value": "short"
+              }
+            },
+            {
+              "id": "10",
+              "name": {
+                "value": "byte"
+              }
+            },
+            {
+              "id": "9",
+              "name": {
+                "value": "boolean"
+              }
+            },
+            {
+              "id": "8",
+              "name": {
+                "value": "tipos primitivos"
+              }
+            },
+            {
+              "id": "7",
+              "name": {
+                "value": "tipos"
+              }
+            },
+            {
+              "id": "6",
+              "name": {
+                "value": "semántica"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "value": "sintaxis"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "jvm"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "jdk"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "jre"
+              }
+            }
+          ],
+          "name": "Tema"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "AsistenteGeneralIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": []
+        },
+        {
+          "name": "AsistenteIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "tema",
+              "type": "Tema",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.590032683915.689837747570"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.590032683915.689837747570",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Qué tema te gustaría conocer?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Dime sobre qué te gustaría saber"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "11"
+}

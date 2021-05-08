@@ -1,0 +1,47 @@
+{
+    "headlineTemplateData": {
+        "type": "object",
+        "objectId": "headlineSample",
+        "properties": {
+            "backgroundImage": {
+                "contentDescription": null,
+                "smallSourceUrl": null,
+                "largeSourceUrl": null,
+                "sources": [
+                    {
+                        "url": "https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                        "size": "small",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    },
+                    {
+                        "url": "https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                        "size": "large",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    }
+                ]
+            },
+            "textContent": {
+                "primaryText": {
+                    "type": "PlainText",
+                    "text": "Hasta pronto usuario Codenow"
+                },
+                "secondaryText": {
+                    "type": "PlainText",
+                    "text": "La programación es un arte"
+                }
+            },
+            "logoUrl": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+            "hintText": "",
+            "welcomeSpeechSSML": "<speak><amazon:emotion name='excited' intensity='medium'></amazon:emotion></speak>"
+        },
+        "transformers": [
+            {
+                "inputPath": "welcomeSpeechSSML",
+                "transformer": "ssmlToSpeech",
+                "outputName": "welcomeSpeech"
+            }
+        ]
+    }
+}

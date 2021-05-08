@@ -1,0 +1,789 @@
+{
+    "textListData": {
+        "type": "object",
+        "objectId": "textListSample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Asistente Codenow | Puedes decir: Quiero saber sobre ...",
+        "listItems": [
+            {
+                "primaryText": "JDK",
+                "secondaryText": "Java",
+                "tertiaryText": "",
+                "imageAlignment": "center",
+                "imageBlurredBackground": true,
+                "imageScale": "best-fit",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[0].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "JRE",
+                "secondaryText": "Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[1].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "JVM",
+                "secondaryText": "Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[2].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Sintaxis",
+                "secondaryText": "Introducción",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[3].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Semántica",
+                "secondaryText": "Introducción",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[4].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Tipos",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[5].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Tipos Primitivos",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "boolean",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[5].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "byte",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "short",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "int",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "long",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "char",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "double",
+                "secondaryText": "Tipos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Variables",
+                "secondaryText": "Introducción",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operadores",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operadores Aritméticos",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operador de concatenación",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operadores relacionales",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operadores lógicos",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operadores de asignación",
+                "secondaryText": "Operadores",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Clases",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Modificadores de acceso",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Objetos",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Atributos",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Atributos estáticos",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Atributos constantes",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Métodos",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Métodos constructores",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Métodos de acceso",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Métodos mutantes",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Métodos auxiliares",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Método main",
+                "secondaryText": "Clases, atributos y métodos",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_rojo.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Controladores secuenciales",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Iteración",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "while",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "do while",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "for",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "if",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "switch",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Operador condicional",
+                "secondaryText": "Controladores de flujo",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "String",
+                "secondaryText": "Más sobre Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Scanner",
+                "secondaryText": "Más sobre Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Arreglos",
+                "secondaryText": "Más sobre Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Herencia",
+                "secondaryText": "Herencia",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Extends",
+                "secondaryText": "Herencia",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Clases abstractas",
+                "secondaryText": "Herencia",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Interfaces",
+                "secondaryText": "Herencia",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Polimorfismo",
+                "secondaryText": "Herencia",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_cafe.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Recursión",
+                "secondaryText": "Más sobre Java",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "Excepciones",
+                "secondaryText": "Excepciones",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "IllegalArgumentException",
+                "secondaryText": "Excepciones",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "IndexOutOfBoundsException",
+                "secondaryText": "Excepciones",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            },
+            {
+                "primaryText": "NullPointerException",
+                "secondaryText": "Excepciones",
+                "tertiaryText": "",
+                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_purpura.png",
+                "primaryAction": [
+                    {
+                        "type": "SetValue",
+                        "componentId": "cheeseList",
+                        "property": "headerTitle",
+                        "value": "${payload.textListData.listItems[6].primaryText} is selected"
+                    }
+                ]
+            }
+        ],
+        "logoUrl": "https://codenowprogramming.000webhostapp.com/assets/images/icono_verde.png",
+        "hintText": "Try, \"Alexa, what is today's cheesy joke?\""
+    }
+}
