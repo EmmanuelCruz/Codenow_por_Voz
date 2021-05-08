@@ -1,5 +1,40 @@
 {
   "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "summary": "Programación por voz",
+          "examplePhrases": [
+            "Alexa, abre asistente codnaow"
+          ],
+          "keywords": [
+            "codenow",
+            "programming",
+            "java",
+            "programación"
+          ],
+          "name": "Asistente Codenow Programming",
+          "description": "¿Quieres aprender conceptos básicos de la programación orientada a objetos? Asistente Codenow facilita la búsqueda y manejo de conceptos del blog Codenow Programming (Java).\n\nhttps://codenowprogramming.000webhostapp.com/\n\nPuedes decir: \"Alexa, abre asistente Codenow\"\nPara una solicitud: \"Alexa, dime sobre recursión\"\nPara una solicitud: \"Alexa, quiero saber sobre métodos de acceso\"\nPara una solicitud aleatoria: \"Alexa, dime un tema aleatorio\"\nPara saber los temas disponibles: \"Alexa, lee temas\"\nPara mostrar los temas disponibles: \"Alexa, muestra lista de temas\"\nPara salir: \"Alexa, cierra skill\"",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "updatesDescription": "¿Alguna vez has manejado un blog por medio de voz? Con asistente Codenow podrás aprender conceptos básicos de la programación orientada a objetos de una forma muy rápida, interactiva, simpática, eficiente e innovadora.",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "es-MX",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Invocación: \"Alexa, abre asistente Codenow\"\nPara realizar una solicitud de tema: \"Alexa, quiero saber sobre recursión\"\nPara realizar una solicitud de tema: \"Alexa, dime sobre herencia\"\nPara solicitar un tema aleatorio: \"Alexa, dame un tema aleatorio\"\nPara conocer los temas disponibles: \"Alexa, lee temas\"\nPara mostrar lista de temas (dispositivos con interfaz gráfica): \"Alexa, dame lista de temas\"\nPara cerrar skill: \"Alexa cierra skill\"",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
     "apis": {
       "custom": {
         "endpoint": {
@@ -9,58 +44,58 @@
           {
             "supportedViewports": [
               {
-                "maxHeight": 540,
-                "maxWidth": 960,
                 "minHeight": 540,
-                "minWidth": 960,
                 "mode": "TV",
-                "shape": "RECTANGLE"
-              },
-              {
-                "maxHeight": 480,
-                "maxWidth": 480,
-                "minHeight": 480,
-                "minWidth": 480,
-                "mode": "HUB",
-                "shape": "ROUND"
-              },
-              {
-                "maxHeight": 600,
-                "maxWidth": 1024,
-                "minHeight": 600,
-                "minWidth": 1024,
-                "mode": "HUB",
-                "shape": "RECTANGLE"
-              },
-              {
-                "maxHeight": 800,
-                "maxWidth": 1280,
-                "minHeight": 800,
-                "minWidth": 1280,
-                "mode": "HUB",
-                "shape": "RECTANGLE"
-              },
-              {
-                "maxHeight": 480,
-                "maxWidth": 960,
-                "minHeight": 480,
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
                 "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 480,
                 "mode": "HUB",
-                "shape": "RECTANGLE"
+                "shape": "ROUND",
+                "maxHeight": 480,
+                "minWidth": 480,
+                "maxWidth": 480
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 600,
+                "minWidth": 1024,
+                "maxWidth": 1024
+              },
+              {
+                "minHeight": 800,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 800,
+                "minWidth": 1280,
+                "maxWidth": 1280
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 480,
+                "minWidth": 960,
+                "maxWidth": 960
               }
             ],
             "type": "ALEXA_PRESENTATION_APL"
           }
         ],
         "regions": {
-          "NA": {
-            "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:399784641164:function:fbd6cf38-cb50-4481-be90-ffc3160141af:Release_0"
-            }
-          },
           "EU": {
             "endpoint": {
               "uri": "arn:aws:lambda:eu-west-1:399784641164:function:fbd6cf38-cb50-4481-be90-ffc3160141af:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:399784641164:function:fbd6cf38-cb50-4481-be90-ffc3160141af:Release_0"
             }
           },
           "FE": {
@@ -72,16 +107,15 @@
       }
     },
     "manifestVersion": "1.0",
-    "publishingInformation": {
-      "category": "KNOWLEDGE_AND_TRIVIA",
-      "distributionCountries": [],
-      "isAvailableWorldwide": true,
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
       "locales": {
-        "es-MX": {
-          "name": "Asistente Codenow"
-        }
+        "es-MX": {}
       },
-      "testingInstructions": "Sample Testing Instructions."
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
     }
   }
 }

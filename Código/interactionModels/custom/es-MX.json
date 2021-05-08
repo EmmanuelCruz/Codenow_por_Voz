@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "asistente codnaow",
+      "invocationName": "asistente codenow",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -464,5 +464,5 @@
       }
     ]
   },
-  "version": "11"
+  "version": "13"
 }

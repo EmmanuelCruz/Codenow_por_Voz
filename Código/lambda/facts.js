@@ -1,20 +1,5 @@
 module.exports = [
     {
-        dato: "El jdk es un software desarrollado para hacer que Java funcione. Este entorno nos permite crear nuevas aplicaciones, applets y software utilizando Java como herramienta.",
-        tipo: "J D K",
-        res : "Software desarrollado para hacer que Java funcione"
-    },
-    {
-        dato: "El JRE permite ejecutar un programa escrito en Java. Esto es posible porque el JRE contiene la máquina virtual Java.",
-        tipo: "J R E",
-        res : "Permite ejecutar un programa escrito en Java"
-    },
-    {
-        dato: "Java Virtual Machine es la máquina virtual responsable de compilar el código y convertirlo a un código particular de la CPU que está utilizando.",
-        tipo: "J V M",
-        res : "Máquina virtual responsable de compilar el código"
-    },
-    {
         dato: "La sintaxis es la gramática que corresponde a un idioma. Esto se refiere a la forma de expresiones bien construidas.",
         tipo: "Sintaxis",
         res : "Gramática que corresponde a un lenguaje o idioma"
@@ -55,7 +40,7 @@ module.exports = [
     {
         dato: "long es un tipo primitivo. Enteros de 64 bits con un rango de valores entre -9223372036854775808 y 9223372036854775807.",
         tipo: "long",
-        res: "Enteros de 64 bits de valores entre -9223372036854775808 y 9223372036854775807"
+        res: "Valores entre -9223372036854775808 y 9223372036854775807"
     },
     {
         dato: "char es un tipo primitivo. Valores sin signo de 16 bits, de 0 a 65535, que representan caracteres Unicode.",
@@ -63,13 +48,13 @@ module.exports = [
         res: "Valores de 16 bits que representan caracteres Unicode"
     },
     {
-        dato: "double es un tipo primitivo. Valores de coma flotante de precisión doble, con un rango de valores entre 4.9406564581246544e-324 y 1.79769313486231570e + 308",
+        dato: "double es un tipo primitivo. Valores de punto flotante de precisión doble, con un rango de valores entre 4.9406564581246544e-324 y 1.79769313486231570e + 308",
         tipo: "double",
         res: "Valores de precisión doble"
     },
     {
         dato: "Una variable es un identificador que almacena un valor. Se dice que las variables describen el estado de un objeto.",
-        tipo: "Variables",
+        tipo: "Variable",
         res: "Identificador que almacena un valor"
     },
     {
@@ -90,7 +75,7 @@ module.exports = [
     {
         dato: "Los operadpres relacionales dan como resultado un valor booleano, depende de si la relación que representan se cumple o no. Igual a, distinto a, menor que, mayor que, mayor o igual que, menor o igual que.",
         tipo: "Operadores relacionales",
-        res: "Igual a, distinto a, menor que, mayor que, mayor o igual que, menor o igual que"
+        res: "Valor booleano, dependiente de si una relación se cumple o no"
     },
     {
         dato: "Los tres operadores lógicos que devuelven un booleano están a continuación: AND, OR, NOT",
@@ -130,7 +115,7 @@ module.exports = [
     {
         dato: "Al definir un dato como constante o final le podremos asignar un valor por primera vez y luego de eso no será posible modificarlo. Una vez inicializado el dato, este no podrá cambiar su valor.",
         tipo: "Atributos constantes",
-        res: "Atributos cuyo valor solo se definie una vez y no se modifica"
+        res: "Atributos cuyo valor solo se define una vez y no se modifica"
     },
     {
         dato: "Un método es la especificación de una serie de acciones o de una acción propia de un objeto perteneciente a una clase. Las acciones que puede realizar un objeto debe estar definido en la Clase a la cual pertenezca el objeto.",
@@ -190,7 +175,7 @@ module.exports = [
     {
         dato: "El enunciado if permite una selección en tiempo de ejecución del programa acerca de qué líneas de código se ejecutan o se omiten de la ejecución. En el caso de que la evaluación de la expresión booleana sea verdadera (true), el código que sigue se ejecuta, y en caso contrario (que se evalúe como false), se omite.",
         tipo: "if",
-        res: "Eecuta o no cierto conjunto de instrucciones"
+        res: "Ejecuta o no cierto conjunto de instrucciones"
     },
     {
         dato: "El enunciado switch permite escoger una entre varias opciones de secuencias de código a ser ejecutado. Su funcionamiento se basa en considerar una expresión que se va secuencialmente comparando con cada valor constante propuesto (o case) como resultado de su evaluación.",
@@ -208,7 +193,7 @@ module.exports = [
         res: "Clase que representa cadenas de caracteres"
     },
     {
-        dato: "Un escaner divide su entrada en tokens utilizando un patrón delimitador, que por defecto coincide con los espacios en blanco. Los tokens resultantes se pueden convertir en valores de diferentes tipos utilizando los siguientes métodos.",
+        dato: "Un escaner divide su entrada en tokens utilizando un patrón delimitador, que por defecto coincide con los espacios en blanco. Los tokens resultantes se pueden convertir en valores de diferentes tipos utilizando los siguientes métodos: nextInt, nextDouble, nextLine, entre otros",
         tipo: "Scanner",
         res: "Objeto que permite la entrada o salida de datos en un programa"
     },
@@ -220,7 +205,7 @@ module.exports = [
     {
         dato: "La herencia conlleva a la capacidad de reutilizar código de manera inteligente. La clase original se conoce como superclase con respecto a la nueva; decimos que la subclase hereda los atributos y métodos de la superclase.",
         tipo: "Herencia",
-        res: "Capcidad de reutilizar código de manera inteligente"
+        res: "Capacidad de reutilizar código de manera inteligente"
     },
     {
         dato: "extends es una palabra reservada que sirve para especificar que una clase extiende a otra se hace con la palabra reservada extends en el encabezado de la clase.",
@@ -243,7 +228,7 @@ module.exports = [
         res: "Cualidad de tener muchas formas"
     },
     {
-        dato: "La recursión, es una manera de especificar cosas basándose en su propia definición. Es una función que está definida en términos de sı́ misma. Es decir, usa su propia definición para definirse.",
+        dato: "La recursión, es una manera de especificar cosas basándose en su propia definición. Es una función que está definida en términos de sí misma. Es decir, usa su propia definición para definirse.",
         tipo: "Recursión",
         res: "Recursión es recursión"
     },
@@ -251,7 +236,8 @@ module.exports = [
         dato: "Una excepción es un mecanismo muy poderoso que tiene Java para detectar errores de ejecución de todo tipo. También se puede ver como un evento excepcional que ocurre cuando hay una falla en la ejecución de un programa o hay un error.",
         tipo: "Excepciones",
         res: "Mecanismo para detectar errores de ejecución"
-    },{
+    },
+    {
         dato: "IllegalArgumentException es una excepción que es lanzada cuando métodos de Java o definidos por el usuario detecta que un argumento no es como se esperaba. Por ejemplo, si se desea sacar la raíz cuadrada de un número negativo.",
         tipo: "IllegalArgumentException",
         res: "Excepción que ocurre cuando un argumento no es como se esperaba"
@@ -259,7 +245,7 @@ module.exports = [
     {
         dato: "IndexOutOfBoundsException es una excepción que es lanzada cuando se intenta usar un elemento de un arreglo que no existe, porque el índice dado no está en el rango dado para los índices del arreglo.",
         tipo: "IndexOutOfBoundsException",
-        res: "Excepción que ocurre se accede a un indice inválido"
+        res: "Excepción que ocurre se accede a un índice inválido"
     },
     {
         dato: "NullPointerException es una excepción que se lanza si se trata de usar al objeto referido por una referencia nula.",

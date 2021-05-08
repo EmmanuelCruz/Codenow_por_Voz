@@ -24,51 +24,6 @@
         "title": "Asistente Codenow | Puedes decir: Quiero saber sobre ...",
         "listItems": [
             {
-                "primaryText": "JDK",
-                "secondaryText": "Java",
-                "tertiaryText": "",
-                "imageAlignment": "center",
-                "imageBlurredBackground": true,
-                "imageScale": "best-fit",
-                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
-                "primaryAction": [
-                    {
-                        "type": "SetValue",
-                        "componentId": "cheeseList",
-                        "property": "headerTitle",
-                        "value": "${payload.textListData.listItems[0].primaryText} is selected"
-                    }
-                ]
-            },
-            {
-                "primaryText": "JRE",
-                "secondaryText": "Java",
-                "tertiaryText": "",
-                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
-                "primaryAction": [
-                    {
-                        "type": "SetValue",
-                        "componentId": "cheeseList",
-                        "property": "headerTitle",
-                        "value": "${payload.textListData.listItems[1].primaryText} is selected"
-                    }
-                ]
-            },
-            {
-                "primaryText": "JVM",
-                "secondaryText": "Java",
-                "tertiaryText": "",
-                "imageThumbnailSource": "https://codenowprogramming.000webhostapp.com/assets/images/icono_azul.png",
-                "primaryAction": [
-                    {
-                        "type": "SetValue",
-                        "componentId": "cheeseList",
-                        "property": "headerTitle",
-                        "value": "${payload.textListData.listItems[2].primaryText} is selected"
-                    }
-                ]
-            },
-            {
                 "primaryText": "Sintaxis",
                 "secondaryText": "Introducción",
                 "tertiaryText": "",
