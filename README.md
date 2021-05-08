@@ -79,7 +79,7 @@ Esta skill está dirigida a usuarios que gustan de conocer nuevas tecnologías p
 ## Diseño de la solución
 
 ### Sobre el usuario
-El desarrollo de la skill que hace posible el asistente virtual por medio de voz para el blog _Codenow Programming_ se basa en teoría relacionada a la experiencia de los usuarios. La skill está pensada para usuarios interesados en las aplicaciones de la nueva tecnología para sacarles el mejor provecho posible para realizar tareas de forma sencilla, así como usuarios interesados en la programación. El usuario central, al estar inmerso en la tecnología, cuenta con un 95% de conocimiento sobre el manejo de distintos dispositivos, tal como celulares, iPods, tablets, computadoras, asistentes de voz, entre otros. Dado que estos usuarios están muy interesados en la tecnología desarrollada, son muy curiosos por conocer nuevas herramientas y saber sobre distintos temas. El usuario general del cuál se basa el modelo de la skill se muestra en la [figura siguiente](https://my.visme.co/preview/01ymegr0-untitled-project?isPreview=1&t=63736152916eeb18eb77a94cf0d88250):
+El desarrollo de la skill que hace posible el asistente virtual por medio de voz para el blog _Codenow Programming_ se basa en teoría relacionada a la experiencia de los usuarios. La skill está pensada para usuarios interesados en las aplicaciones de la nueva tecnología para sacarles el mejor provecho posible para realizar tareas de forma sencilla, así como usuarios interesados en la programación. El usuario central, al estar inmerso en la tecnología, cuenta con un 95% de conocimiento sobre el manejo de distintos dispositivos, tal como celulares, iPods, tablets, computadoras, asistentes de voz, entre otros. Dado que estos usuarios están muy interesados en la tecnología desarrollada, son muy curiosos por conocer nuevas herramientas y saber sobre distintos temas. El usuario general del cuál se basa el modelo de la skill se muestra en la [figura siguiente](https://github.com/EmmanuelCruz/Codenow_por_Voz/blob/master/Documentos/Sobre%20los%20usuarios.pdf):
 
 ![Figuras/Usuario.PNG](Figuras/Usuario.PNG)
 
@@ -110,13 +110,13 @@ De los 36 encuestados, el 80.6% opina que la rapidez con la que se encuentra la 
 Usar la skill efectivamente mejoró el tiempo de búsqueda, por lo que los usuarios de prueba quedaron más satisfechos con la búsqueda por voz. Se logró como meta obtener información de forma más rápida, más entretenida y más clara.
 
 
-A partir de los puntos mostrados, se desarrolló un mapa que lleva de la mano al usuario desde un objetivo hasta una meta al utilizar la skill. Este mapa se muestra en la siguiente [figura](https://my.visme.co/preview/q6x1m3gw-untitled-project?isPreview=1&t=d49b831f7881acd24e8e08f213da7a18):
+A partir de los puntos mostrados, se desarrolló un mapa que lleva de la mano al usuario desde un objetivo hasta una meta al utilizar la skill. Este mapa se muestra en la siguiente [figura](https://github.com/EmmanuelCruz/Codenow_por_Voz/blob/master/Documentos/Customer%20Journey%20Map.pdf):
 
 ![Figuras/Journey.PNG](Figuras/Journey.PNG)
 
 Finalmente, para un mejor diseño sobre el manejo del asistente, se consideraron puntos importantes que están directamente a criterios ergonómicos para transmitir información de la mejor manera posible y el usuario se sienta más cómodo.
 
-![Tabla](Figuras/Tabla.PNG)
+![Tabla](Figuras/Tabla.png)
 
 ### Funcionamiento de la Skill
 Finalmente, para que el usuario pueda tener comunicación con el asistente de blog por medio de un dispositivo, el flujo de conversación se basa en peticiones y respuestas, de tal forma que hay interacción con la aplicación con el flujo mostrado en la siguiente figura:
@@ -125,9 +125,9 @@ Finalmente, para que el usuario pueda tener comunicación con el asistente de bl
 
 Para navegar en el flujo de conversación, se consideran distintos casos con los que el usuario puede activar la skill para realizar peticiones, recibir respuestas, entrar a la skill, realizar otra pregunta y terminar con la ejecución de la skill.
 
-![Tabla2](Figuras/Tabla2.PNG)
+![Tabla2](Figuras/Tabla2.png)
 
-La skill cuenta con más de 65 casos de uso. Más casos de uso considerados para la skill se muestran en el siguiente enlace: [https://docs.google.com/spreadsheets/d/1959PHHITo-9SknVrGoKnt9e86ytdNi6Ao79gbv1bbcQ/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1959PHHITo-9SknVrGoKnt9e86ytdNi6Ao79gbv1bbcQ/edit?usp=sharing).
+La skill cuenta con más de 65 casos de uso. Más casos de uso considerados para la skill se muestran en el siguiente enlace: [https://github.com/EmmanuelCruz/Codenow_por_Voz/blob/master/Documentos/Casos%20de%20uso.pdf](https://github.com/EmmanuelCruz/Codenow_por_Voz/blob/master/Documentos/Casos%20de%20uso.pdf).
 
 A continuación se muestra una ejecución donde interviene el usuario directamente con la skill para su manejo.
 * Inicio de la skill. Es la invocación principal para activar el ambiente del asistente virtual de manejo del blog.
@@ -189,11 +189,11 @@ Analizando las fallas de la skill dadas en las desventajas, se podría mejorar e
 
 ----
 ## Bibliografía y referencias
-[1] Wikipedia, _comScore_, 28 de marzo de 2020, Recuperado de [https://es.wikipedia.org/wiki/ComScore](https://es.wikipedia.org/wiki/ComScore).
-[2] Cathy Pearl, _Designing Voice User Interfaces_, O.REILLY, United States of America, 2017.
-[3] Frederik Goossens, _Designing a VUI — Voice User Interface_, 14 de mayo de 2018, Recuperado de [https://medium.com/voice-experience-design/designing-a-vui-voice-user-interface-c0b3b9b57ace](https://medium.com/voice-experience-design/designing-a-vui-voice-user-interface-c0b3b9b57ace)
-[4] Real Academia Española, _Blog_, Enero de 2021, Recuperado de [https://dle.rae.es/blog](https://dle.rae.es/blog)
-[5] Oracle, _¿Qué es Java?_, 2020, Recuperado de [https://www.java.com/es/about/whatis_java.jsp](https://www.java.com/es/about/whatis_java.jsp)
-[6] Amazon Developer, _¿Por qué Alexa?_, Enero de 2021, [https://developer.amazon.com/es-ES/alexa](https://developer.amazon.com/es-ES/alexa)
-[7] Mendoza, M. (2001). _Metodología para el desarrollo de software educativo multimedia_. Tesis.UNAM. pp. 82-93, 97, 175-183.
-[8] Jonathan Anderson, John McRee, Robb Wilson. _Effective UI: The Art of Building Great User Experience in Software_. "O" Reilly Media, 2010.
+* [1] Wikipedia, _comScore_, 28 de marzo de 2020, Recuperado de [https://es.wikipedia.org/wiki/ComScore](https://es.wikipedia.org/wiki/ComScore).
+* [2] Cathy Pearl, _Designing Voice User Interfaces_, O.REILLY, United States of America, 2017.
+* [3] Frederik Goossens, _Designing a VUI — Voice User Interface_, 14 de mayo de 2018, Recuperado de [https://medium.com/voice-experience-design/designing-a-vui-voice-user-interface-c0b3b9b57ace](https://medium.com/voice-experience-design/designing-a-vui-voice-user-interface-c0b3b9b57ace)
+* [4] Real Academia Española, _Blog_, Enero de 2021, Recuperado de [https://dle.rae.es/blog](https://dle.rae.es/blog)
+* [5] Oracle, _¿Qué es Java?_, 2020, Recuperado de [https://www.java.com/es/about/whatis_java.jsp](https://www.java.com/es/about/whatis_java.jsp)
+* [6] Amazon Developer, _¿Por qué Alexa?_, Enero de 2021, [https://developer.amazon.com/es-ES/alexa](https://developer.amazon.com/es-ES/alexa)
+* [7] Mendoza, M. (2001). _Metodología para el desarrollo de software educativo multimedia_. Tesis.UNAM. pp. 82-93, 97, 175-183.
+* [8] Jonathan Anderson, John McRee, Robb Wilson. _Effective UI: The Art of Building Great User Experience in Software_. "O" Reilly Media, 2010.
